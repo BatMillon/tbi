@@ -1,0 +1,34 @@
+PUBLIER LE TABLEAU EN LIGNE (GitHub Pages) — à faire une seule fois
+====================================================================
+
+1. Connectez-vous sur https://github.com (compte BatMillon).
+2. Cliquez sur « + » (en haut à droite) → « New repository ».
+   - Repository name : tbi
+   - Cochez « Public »  → « Create repository ».
+3. Sur la page du dépôt vide, cliquez sur « uploading an existing file ».
+4. Glissez-déposez TOUT le contenu de ce dossier (index.html, manifest.webmanifest, sw.js,
+   icone-192.png, icone-512.png) puis le dossier « anatomie » (ses 4 fichiers).
+   Si le dossier ne se glisse pas, envoyez d'abord les 5 fichiers, puis recommencez avec les
+   fichiers de « anatomie » (GitHub vous laisse indiquer le dossier : écrivez « anatomie/ » devant le nom
+   n'est pas nécessaire si vous glissez le dossier entier).
+5. Cliquez sur « Commit changes ».
+6. Onglet « Settings » → « Pages » (menu de gauche) → « Source : Deploy from a branch »
+   → Branch : main, dossier « / (root) » → « Save ».
+7. Après 1 à 2 minutes, l'adresse est : https://batmillon.github.io/tbi/
+
+INSTALLER COMME UNE APPLICATION (fenêtre sans barre d'adresse)
+- Ouvrez l'adresse dans Chrome ou Edge → icône « Installer » dans la barre d'adresse (ou menu ⋮ →
+  « Enregistrer et partager » → « Installer la page comme application »).
+- Un raccourci apparaît sur le Bureau / dans le menu Démarrer.
+
+METTRE À JOUR
+- Je vous donne un nouveau « index.html » : dans le dépôt, « Add file » → « Upload files » → déposez-le
+  (même nom) → « Commit changes ». Chacun reçoit la nouvelle version en rouvrant ou rechargeant la page
+  (le message « Nouvelle version installée » s'affiche).
+
+IMPORTANT
+- Vos cours ne sont PAS en ligne : ils restent dans le dossier choisi sur l'ordinateur utilisé (mettez ce
+  dossier dans OneDrive pour les retrouver partout).
+- Les clés MyScript sont enregistrées dans le navigateur de chaque utilisateur : à saisir une fois
+  (Menu ☰ → clés MyScript). Elles ne sont jamais dans les fichiers publiés.
+- Ne mettez JAMAIS le fichier tbi-config.js (installeur) dans ce dépôt : il peut contenir des clés.
