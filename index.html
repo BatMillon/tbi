@@ -6361,7 +6361,7 @@ const CREDIT='Modèles : BodyParts3D 4.0 © DBCLS (CC BY 4.0) via abussola-med-m
 let win=null,cv=null,lay=null,T=null,renderer=null,camera=null,scene=null,controls=null,rt=null,cur=null,ptr=null;
 const models={};
 const S={det:false,sex:'male',vis:{skin:1,muscles:1,skeleton:1,vessels:1,nerves:1,organs:1},level:0,trans:false,axis:'none',pos:0,flip:false,hid:new Set(),iso:null,sel:new Set(),lasso:false,fs:false,x:Math.max(10,innerWidth-520),y:50,W:470,dirty:true};
-function base(){const u=(document.currentScript&&document.currentScript.src)||location.href;return new URL('anatomie/',location.href).href;}
+function base(){const u=(document.currentScript&&document.currentScript.src)||location.href;return new URL('./',location.href).href;}
 const loaded={};
 function loadScript(src){return loaded[src]||(loaded[src]=new Promise((res,rej)=>{const s=document.createElement('script');s.src=src;s.onload=()=>res();s.onerror=()=>{delete loaded[src];rej(new Error('Fichier introuvable : '+src));};document.head.appendChild(s);}));}
 function msg(t){const m=$('#anMsg');if(m)m.textContent=t||'';}
